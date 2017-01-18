@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Job Listing </title>
+        <title>职由-自由你的生活 </title>
         <%= csrf_meta_tags %>
 
         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
     </head>
 
     <body>
 
-        <div class="container-fluid">
+        <div class="row" style="margin-left: 0px; margin-right: 0px; margin-bottom: 0px">
             <%= render "common/navbar" %>
-            <%= render "common/flashes" %>
+            
             <%= yield %>
         </div>
 
