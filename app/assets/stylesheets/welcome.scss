@@ -1,24 +1,13 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.custab{
-  border:1px solid #ccc;
-  padding: 5px;
-  margin: 2% 0;
-  box-shadow: 3px 3px 2px #ccc;
-  transition: 0.5s;
-}
 
-.custab:hover{
-  box-shadow: 3px 3px 0px transparent;
-  transition: 0.5s;
-}
 
 .jumbotron {
- background-image:url('http://r.photo.store.qq.com/psb?/V10GWtGT3kTctc/geiwI53WmArUAeJOzviITKwHrBuT3bJ6Il7sAQW4AZk!/r/dHcBAAAAAAAA');
- background-repeat: no-repeat;
- background-size: cover;
- padding-bottom: 230px;
+  background: url('http://r.photo.store.qq.com/psb?/V10GWtGT3kTctc/q11pFX6TEfXb8f2bBSS95wRcUS*MqSqZZGRqCIh0*ZE!/r/dN0AAAAAAAAA') scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .title {
@@ -38,6 +27,23 @@
 
 .lead {
  margin-bottom: 60px;
- text-align: center;
- color: white;
+ text-align: left;
+ color: #bf0000;
+
+}
+
+.round-submit-1 .round-submit-button {
+  border-radius: 25px;
+  background: transparent;
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 14px 37px 13px;
+  margin-right: 10px;
+  margin-top: 20px;
 }

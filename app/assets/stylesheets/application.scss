@@ -19,5 +19,22 @@
 
  @import "font-awesome";
 
-
- 
+ .container-fluid .jumbotron{
+   border-radius: 0;//圆角为0
+ }
+ .navbar{
+     background:rgba(5,5,5,0.5);
+      border:rgba(0,0,0,0.5);
+ }
+ .nav-pills > li.active > a {
+     background-color:#0090ff;
+ }
+ // This changes the color of the active
+ .navbar-default .navbar-nav > li > a{
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #0000000;
+  background-color: #ffffff;
+}
