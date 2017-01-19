@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { sessions: 'users/sessions' }
 
 
-   
+   resources :aboutus
    resources :jobs
    root 'welcome#index'
 
