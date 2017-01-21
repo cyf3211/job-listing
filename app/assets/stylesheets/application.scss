@@ -19,6 +19,12 @@
 
  @import "font-awesome";
 
+.panel-login {background-color: white}
+ .page-wrap {
+     height: 400px;
+     width: 600px;
+
+}
  .container-fluid .jumbotron{
    border-radius: 0;//圆角为0
  }
@@ -37,4 +43,10 @@
 .navbar-default .navbar-nav > li > a:focus {
   color: #0000000;
   background-color: #ffffff;
+}
+.navbar-brand,
+ {
+    line-height: 40px;
+    height: 30px;
+    padding-top: 4px;
 }

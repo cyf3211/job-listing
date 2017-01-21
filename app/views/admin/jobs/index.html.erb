@@ -1,3 +1,6 @@
+<br>
+<br>
+
 <div class="pull-right">
   <%= link_to("Add a job",new_job_path, :class => "btn btn-default")%>
 </div>
@@ -31,15 +34,15 @@
 
 
     <td>
-      <%= link_to("Edit",edit_admin_job_path(job))%> |
-      <%= link_to("Destroy",admin_job_path(job), :method=> :delete, :data =>{ :confirm=>"are you sure"})%>
 
-      <% if job.is_hidden %>
+         <%= link_to("Edit", edit_admin_job_path(job), :class => "btn btn-xs btn-info") %> <!-- "btn btn-xs btn-info"为bootstrap语法 -->
 
-        <%= link_to("Publish", publish_admin_job_path(job), :method => :post,  :class => "btn btn-xs btn-default")%>
-      <% else %>
-        <%= link_to("Hide", hide_admin_job_path(job), :method => :post,  :class => "btn btn-xs btn-default")%>
-      <%end%>
+         <%= link_to("Destroy", admin_job_path(job), :method => :delete, :class => "btn btn-xs btn-danger", :data => { :confirm => "Are you sure?" }) %>
+         <% if job.is_hidden %>
+      <%= link_to("Publish", publish_admin_job_path(job) , :method => :post, :class => "btn btn-xs btn-success") %>
+        <% else %>
+        <%= link_to("Hide", hide_admin_job_path(job), :method => :post,  :class => "btn btn-xs btn-warning") %>
+        <% end %>
     </td>
     <td>
       <%= job.created_at%>

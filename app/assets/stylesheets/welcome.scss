@@ -15,8 +15,15 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-}
 
+}
+.jumbotron2 {
+  background: url('http://r.photo.store.qq.com/psb?/V10GWtGT3kTctc/ZVDyWUjN2zhFlIZkrpMed6jaDDYGWuxXZWHBm6lPOD8!/r/dN8AAAAAAAAA') scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
 
 
 .title {
@@ -39,6 +46,12 @@
  text-align: left;
  color: #bf0000;
 
+}
+.img{
+  float:left;
+　　width:100px;
+　　height:100px;
+　　position:relative;
 }
 
 .round-submit-1 .round-submit-button {
